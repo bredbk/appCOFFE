@@ -15,4 +15,6 @@ export const color = {
   escuro: '#555555',
   white: '#fff',
   gray: '#C7C7C7',
+  brown: '#bf7f37',
+  brownEscuro: '#562618'
 };

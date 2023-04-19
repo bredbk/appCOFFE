@@ -8,6 +8,6 @@ export default StyleSheet.create({
     },
     ajusteTelaBaixo: {
         flex: 0,
-        backgroundColor: color.green
+        backgroundColor: color.brownEscuro
     }
 });

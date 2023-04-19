@@ -8,15 +8,13 @@ export default function TitleBar() {
 
     return <View style={estilos.conteudo}>
         <View style={estilos.total}>
-            <Text style={estilos.descricao}>IFBA News</Text>
+            <Text style={estilos.descricao}>App Coffe</Text>
         </View>
 
         <View style={estilos.total}>
         <Image
         style={styles.tinyLogo}
-        source={{
-          uri: 'https://avatars.githubusercontent.com/u/62598536?s=280&v=4',
-        }}
+        source={{uri: 'https://cdn-icons-png.flaticon.com/128/751/751621.png'}}
       />
 
         </View>

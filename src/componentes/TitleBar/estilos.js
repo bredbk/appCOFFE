@@ -3,7 +3,7 @@ import { color } from '../../estilos';
 
 export default StyleSheet.create({
   conteudo: {
-    backgroundColor: color.green,
+    backgroundColor: color.brown,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

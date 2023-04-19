@@ -1,22 +1,20 @@
 {
   "expo": {
-    "name": "IFBA_News",
-    "slug": "ifba_news",
+    "name": "APP_caffe",
+    "slug": "app_caffe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/img/ifba_icon.png",
+    "icon": "./assets/img/small_cafe.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/img/ifba_splash.png",
+      "image": "./assets/img/caffe.png",
       "resizeMode": "contain",
-      "backgroundColor": "#428a41"
+      "backgroundColor": "#e88750"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }

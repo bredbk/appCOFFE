@@ -6,7 +6,7 @@ export default StyleSheet.create({
     padding: 24
   },
   nome: {
-    color: color.green,
+    color: color.brownEscuro,
     fontSize: 16,
     fontFamily: "ArvoRegular"
   },
