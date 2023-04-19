@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ActivityIndicator, FlatList, View } from "react-native";
 import Item from "./item";
 import estilos from "../../estilos";
-import { Conteudo } from "../../../noticias";
+import { Conteudo } from "../../../caffes";
 
 
 export default function Titulo(item) {
