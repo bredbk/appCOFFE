@@ -1,0 +1,29 @@
+version: '3'
+services:
+  feeds:
+    image: appcoffe
+    build: ./dockerfiles/servicos/
+    hostname: feeds
+    ports:
+      - '5001:5000'
+    volumes:
+      - './feeds:/servico'
+    command: python3 servico.py
+  detalhes:
+    image: appcoffe
+    build: ./dockerfiles/servicos
+    hostname: detalhescafe
+    ports:
+      - '5002:5000'
+    volumes:
+      - './detalhescafe:/servico'
+    command: python3 servico.py
+
+  bancodados:
+    image: mysql
+    hostname: bancodados
+    ports:
+      - '6001:3306'
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+  
